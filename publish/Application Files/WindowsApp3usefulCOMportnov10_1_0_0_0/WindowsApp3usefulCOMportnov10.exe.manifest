@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="WindowsApp3usefulCOMportnov10.exe" version="1.0.0.0" publicKeyToken="9b8d388ecef92767" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="WindowsApp3usefulCOMportnov10" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="WindowsApp3usefulCOMportnov10.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC マニフェスト オプション
+          Windows のユーザー アカウント制御のレベルを変更するには、
+          requestedExecutionLevel ノードを以下のいずれかで置換します。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         下位互換性を保つためにファイルおよびレジストリの仮想化を使用する場合、
+         requestedExecutionLevel ノードを削除します。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WindowsApp3usefulCOMportnov10.exe" size="37288">
+      <assemblyIdentity name="WindowsApp3usefulCOMportnov10" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>Z5UOKX0cINKk7RrWvBnpsgOOaADziusc34UOdTQ8r/8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="WindowsApp3usefulCOMportnov10.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>VDy5/VrQni+RSOb/6uEMWMc6bGQEaa2e2UdeWG+KK1I=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=home-PC\USER" issuerKeyHash="0c0bc203946b239572ae27c8b0bb652def223c04" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>1AnofzicggqbWWjs6AjYJI4A4nAHNGrkE4W/1GWTnt8=</DigestValue></Reference></SignedInfo><SignatureValue>th4NM+F/tZTXtzxq0wbXu1LBvxVVKAm7hjos5fAwIQF8XzMgca52JhPCVhGJ7VbO5AoO7Epl2cSR5M2zyCZxOvIOQsScJyzlQTobEVYjTDC/AiEZtNhUHDesTPsXIw4K4lbFlf9SzWTHiTM+nQMccKGnQVpRUjhQhFDGecTBzp4=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>uEnzrWm2Jw5ngJ8aTZgG3z3xp1Gea1IBaSzx8pqz+MNcTBTSTnoQk48ZKh8PybH1sKLezrCQ8vNZhrDj7RnrsSCbj5BiCPTk64cRPdFNiH5hllybyjaIEuiCbQNZLWXQk8VINt7NrEfi/eMCMrTtqpK5Svb2qWPM1ColABUF9Pk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="df9e9365d4bf8513e46a340770e2008e24d808e8ec68599b0a829c387fe809d4" Description="" Url=""><as:assemblyIdentity name="WindowsApp3usefulCOMportnov10.exe" version="1.0.0.0" publicKeyToken="9b8d388ecef92767" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=home-PC\USER</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>6Mk3JFVlNArcdG2NyM4CEEvJsPJflOeWkvUg2vy9rB8=</DigestValue></Reference></SignedInfo><SignatureValue>Otijcy3bzCPmkLR6TdHGWa44adZnEJ/EcM66+hny9EWsNT73EYeaOWKJiP2pYYL9olL4GieJx4pvRLUsw8wt4WTI5sXKJrCKf3ofFM5pD3h1/lFqkp+gYMl757nGpxEa57UWu7TzU5CnhRDsQL3jqH0VF+cF2uw6pw2okIZ7JuI=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>uEnzrWm2Jw5ngJ8aTZgG3z3xp1Gea1IBaSzx8pqz+MNcTBTSTnoQk48ZKh8PybH1sKLezrCQ8vNZhrDj7RnrsSCbj5BiCPTk64cRPdFNiH5hllybyjaIEuiCbQNZLWXQk8VINt7NrEfi/eMCMrTtqpK5Svb2qWPM1ColABUF9Pk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQOm6isGCWPIVKwu6N+UlzEDANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgAaABvAG0AZQAtAFAAQwBcAFUAUwBFAFIwHhcNMjUwMjAyMDMxMzIxWhcNMjYwMjAyMDkxMzIxWjAjMSEwHwYDVQQDHhgAaABvAG0AZQAtAFAAQwBcAFUAUwBFAFIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALhJ861pticOZ4CfGk2YBt898adRnmtSAWks8fKas/jDXEwU0k56EJOPGSofD8mx9bCi3s6wkPLzWYaw4+0Z67Egm4+QYgj05OuHET3RTYh+YZZcm8o2iBLogm0DWS1l0JPFSDbezaxH4v3jAjK07aqSuUr29qljzNQqJQAVBfT5AgMBAAEwDQYJKoZIhvcNAQELBQADgYEAjlpa2MWofYr3iMcpuUawVxpLvvvkKGLkKjFWM14kvFJvy37FUTw4zmJoRYZZekGnMRuXuaE3JA/ezd2wDAB9MtTJqAVsrZ25JZbf3oRPkmgzBNYaBlWhnS2HiwOBalmMRhfPFB9JkV0D15ZLk4PpTl7OSsKSt0ndTLYT9wU7DZI=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
